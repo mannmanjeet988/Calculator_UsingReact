@@ -1,0 +1,68 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Inter:wght@400;500;700&family=Montserrat:wght@300;400;500;600;700&family=Mulish:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.form-container{
+    display:flex;
+    width:405px;
+    height:400px;
+    box-shadow: -30px 20px 100px 10px #FB184E78;
+    margin: auto;
+    position: relative;   
+    top:23vh;
+    border-radius: 1.6rem;
+}
+
+.form-inner-div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding: 1rem 3.2rem;
+}
+
+.btn-div{
+    display:flex;
+    gap:30px;
+}
+
+button{
+    padding:10px;
+    background-color: black;
+    outline: none;
+    color:white;
+    width:46px;
+    height:40px;
+    font-size: large;
+}
+
+input{
+    width:280px;
+    height:40px;
+    border:2px solid black;
+    padding: 5px;
+}
+
+.error{
+    color:red;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.success{
+   color: green;
+   font-weight: 700;
+}
